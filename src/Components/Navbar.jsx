@@ -45,7 +45,7 @@ const Navbar = () => {
             <div>
               {" "}
               <p>Logged in as {user.email}</p>
-              <button onClick={logout}>Logout</button>
+              <button onClick={logout} className="text-white bg-red-400 px-3 py-1 rounded-lg font-bold cursor-pointer">Logout</button>
             </div>
           ) : (
             <div>
